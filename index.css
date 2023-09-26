@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "delagio";
+    src: url(delagio_script/DelagioScript_PERSONAL_USE_ONLY.otf);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: "delagio";
+    background-color: cornflowerblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    margin-bottom: 10px;
+}
+
+span{
+    color: red;
+    margin-bottom: 5px;
+    font-size: small;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 2%;
+    padding: 2%;
+    border: 2px solid orange;
+    border-radius: 4px;
+}
+
+textarea {
+    margin: 5px 0;
+    height: 100px;
+    resize: none;
+}
+
+input{
+    margin: 5px 0;
+}
+
+input, textarea{
+    padding: 7px 3px;
+    border: 0;
+    border-radius: 2px;
+    outline: 0;
+    font-family: "delagio";
+}
+
+/*패보보마폰백컬커*/
+button{
+    padding: 5px;
+    border: 0px;
+    border-radius: 2px;
+    margin-top: 10px;
+    font-family: "delagio";
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(255, 214, 138);
+}
+
+/* Errores de validación*/
+.errorInput{
+    border: 2px solid red;
+}

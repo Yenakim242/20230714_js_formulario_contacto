@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <form novalidate>
+        <h3>Formulario de Contacto</h3>
+        <label for="nombreInput">Nombre <span>*</span></label>
+        <input type="text" name="nombreInput" id="nombreInput">
+        <span class="errorMsg"></span>
+        <label for="emailInput">Email <span>*</span></label>
+        <input type="email" name="emailInput" id="emailInput">
+        <span class="errorMsg"></span>
+        <label for="telefonoInput">Teléfono <span>*</span></label>
+        <input type="tel" name="telefonoInput" id="telefonoInput">
+        <span class="errorMsg"></span>
+        <textarea name="mensajeTextarea" id="mensajeTextarea" cols="30" rows="10"></textarea>
+        <button>Enviar</button>
+    </form>
+</body>
+</html>
